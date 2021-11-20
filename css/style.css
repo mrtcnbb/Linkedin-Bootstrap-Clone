@@ -1,6 +1,11 @@
 .navbarbg {
   height: 55px;
   background-color: white;
+  border: 0.5px solid lightgray;
+}
+
+.navbar-collapse {
+  margin-left: 160px;
 }
 
 input.searche {
@@ -10,16 +15,22 @@ input.searche {
   border: 0;
 }
 
+.form-inline input[type='search'] {
+  padding-left: 10px;
+}
+
 input.searche::placeholder {
+  background-position: 1% !important;
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-size: 10%;
 }
 
 .body {
   background-color: #f3f2ef;
+  padding: 100px;
 }
 
 .menutext {
@@ -65,7 +76,7 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -126,5 +137,35 @@ button.ref:hover {
     'Helvetica Neue', sans-serif;
   font-weight: bold;
   font-size: 14px;
-  margin-left: 8px;
+}
+
+.rounded-circle {
+  border: 2px solid white;
+}
+
+.textwithicon input[type='text'] {
+  padding-left: 40px;
+}
+
+.searchwithicon input[type='search'] {
+  padding-left: 40px;
+}
+
+.textwithicon i {
+  position: absolute;
+  top: 8px;
+  padding-left: 13px;
+  color: black;
+}
+
+.searchwithicon i {
+  position: absolute;
+  top: 4px;
+  padding-left: 10px;
+  color: black;
+}
+
+.rightbutton {
+  color: #559ef1;
+  border: 1px solid #559ef1;
 }
